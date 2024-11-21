@@ -1,0 +1,26 @@
+{
+    "id": "1",
+    "type": "Bedroom",
+    "options": {
+        "1 Level": ["Lower", "Main", "Upper"],
+        "2 Flooring Type": ["Carpet","Linoleum", "Vinyl Tile", "Laminate", "Tile", "Hardwood"],
+        "3 Flooring Condition": ["Poor", "Average", "Good", "Excellent"],
+        "4 Lighting Type": ["None","Pot Lights", "Ceiling Fixtures", "Lamps Only", "Other"],
+        "5 # of Closets": ["1","2","3","4","5+"],
+        "6 Main Closet Size": ["Single", "Double", "Walk-In"],
+        "7 # of Windows": ["1","2","3","4","5+"],
+        "8 Condition of Windows": ["Poor", "Average", "Good", "Excellent"],
+        "9 Ensuite Bath": ["Yes", "No"]
+    },
+    "selected": {
+        "1 Level": "",
+        "2 Flooring Type": "",
+        "3 Flooring Condition": "",
+        "4 Lighting Type": "",
+        "5 # of Closets": "",
+        "6 Main Closet Size": "",
+        "7 # of Windows": "",
+        "8 Condition of Windows": "",
+        "9 Ensuite Bath": ""
+    }
+}

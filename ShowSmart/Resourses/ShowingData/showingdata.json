@@ -1,0 +1,134 @@
+{
+    "data": [
+        {
+            "id": "1",
+            "type": "Exterior",
+            "options": {
+                "1 Driveway Type": ["Single", "Double", "Triple+"],
+                "2 Garage": ["None", "Single", "Double", "Triple+"],
+                "3 Garage Attachment": ["None", "Attached", "Detached"],
+                "4 Shed Material": ["None", "Wood", "Vinyl", "Metal", "Other"],
+                "5 Shed Size": ["Small", "Medium", "Large"],
+                "6 Driveway Surface": ["Stone", "Asphalt", "Concrete", "Interlock", "Other"],
+                "7 Fence": ["None", "Partial", "Full"],
+                "8 Fence Condition": ["None", "Poor", "Average", "Good", "Excellent"],
+                "9 Lot Size & Outdoor Space": ["Small", "Average", "Oversized"],
+                "10 Roof Appearance": ["Replace", "Repair", "Average", "Newer"],
+                "11 Foundation Appearance": ["Looks Ok", "Should be Reviewed"],
+                "12 Deck Condition": ["None", "Poor", "Average", "Good"]
+            },
+            "selected": {
+                "1 Driveway Type": "",
+                "2 Garage": "",
+                "3 Garage Attachment": "",
+                "4 Shed Material": "",
+                "5 Shed Size": "",
+                "6 Driveway Surface": "",
+                "7 Fence": "",
+                "8 Fence Condition": "",
+                "9 Lot Size & Outdoor Space": "",
+                "10 Roof Appearance": "",
+                "11 Foundation Appearance": "",
+                "12 Deck Condition": ""
+            }
+        },
+        {
+            "id": "2",
+            "type": "Entryway",
+            "options": {
+                "1 Coat Closet": ["Yes", "No"]
+            },
+            "selected": {
+                "1 Coat Closet": ""
+            }
+        },
+        {
+            "id": "3",
+            "type": "Kitchen",
+            "options": {
+                "1 Countertops": ["Laminate", "Granite/Stone", "Wood", "Other"],
+                "2 Cupboards Age": ["Older", "Average", "Newer"],
+                "3 Cupboards Condition": ["Poor", "Average", "Good", "Excellent"],
+                "4 Flooring Type": ["Carpet","Linoleum", "Vinyl Tile", "Laminate", "Wood", "Other"],
+                "5 Flooring Condition": ["Poor", "Average", "Good", "Excellent"],
+                "6 Lighting": ["Dated", "Average", "Newer"],
+                "7 Lighting Type": ["Pot Lights", "Chandelier", "Ceiling Fixtures", "Other"],
+                "8 Seating": ["Table", "Island", "None"],
+                "9 # of Windows": ["1","2","3","4","5+"],
+                "10 Condition of Windows": ["Poor", "Average", "Good", "Excellent"]
+            },
+            "selected": {
+                "1 Countertops": "",
+                "2 Cupboards Age": "",
+                "3 Cupboards Condition": "",
+                "4 Flooring Type": "",
+                "5 Flooring Condition": "",
+                "6 Lighting": "",
+                "7 Lighting Type": "",
+                "8 Seating": "",
+                "9 # of Windows": "",
+                "10 Condition of Windows": ""
+            }
+        },
+        {
+            "id": "4",
+            "type": "Dining Room",
+            "options": {
+                "1 Type": ["Separate", "Open Concept", "Other"],
+                "2 Flooring Type": ["Carpet","Linoleum", "Vinyl Tile", "Laminate", "Tile", "Hardwood"],
+                "3 Flooring Condition": ["Poor", "Average", "Good", "Excellent"]
+            },
+            "selected": {
+                "1 Type": "",
+                "2 Flooring Type": "",
+                "3 Flooring Condition": ""
+            }
+        },
+        {
+            "id": "5",
+            "type": "Living Room",
+            "options": {
+               
+                "1 Flooring Type": ["Carpet","Linoleum", "Vinyl Tile", "Laminate", "Tile", "Hardwood"],
+                "2 Flooring Condition": ["Poor", "Average", "Good", "Excellent"],
+                "3 Lighting Type": ["None", "Pot Lights", "Ceiling Fixtures", "Lamps Only", "Other"],
+                "4 # of Windows": ["1","2","3","4","5+"],
+                "5 Condition of Windows": ["Poor", "Average", "Good", "Excellent"]
+            },
+            "selected": {
+            
+                "1 Flooring Type": "",
+                "2 Flooring Condition": "",
+                "3 Lighting Type": "",
+                "4 # of Windows": "",
+                "5 Condition of Windows": ""
+            }
+        },
+        {
+            
+            "id": "6",
+            "type": "Systems",
+            "options": {
+                "1 Water": ["Municipal", "Well", "Lake", "Other"],
+                "2 Water Filtration": ["Yes","No"],
+                "3 Sewer": ["Municipal", "Septic", "Other"],
+                "4 Heating Type": ["Forced Air", "Hot Water Radiant", "Electric Radiant", "Other"],
+                "5 Heating Fuel": ["Gas","Electric","Wood","Propane","Oil", "Other"],
+                "6 Electrical Panel": ["Fuses", "Breakers"],
+                "7 Electrical Service Size": ["100A", "200A", "Other"],
+                "8 Drain System": ["Sump", "Gravity Drain", "Other", "None Found"]
+            },
+            "selected": {
+                "1 Water": "",
+                "2 Water Filtration": "",
+                "3 Sewer": "",
+                "4 Heating Type": "",
+                "5 Heating Fuel": "",
+                "6 Electrical Panel": "",
+                "7 Electrical Service Size": "",
+                "8 Drain System": ""
+            }
+        }
+    ]
+}
+

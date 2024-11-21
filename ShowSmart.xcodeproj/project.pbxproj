@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		DDE5D2212CA5C0EF00F16BC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDE5D2082CA5C0EC00F16BC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDE5D20F2CA5C0EC00F16BC9;
+			remoteInfo = ShowSmart;
+		};
+		DDE5D22B2CA5C0EF00F16BC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDE5D2082CA5C0EC00F16BC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDE5D20F2CA5C0EC00F16BC9;
+			remoteInfo = ShowSmart;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DDE5D2102CA5C0EC00F16BC9 /* ShowSmart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShowSmart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDE5D2202CA5C0EF00F16BC9 /* ShowSmartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShowSmartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDE5D22A2CA5C0EF00F16BC9 /* ShowSmartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShowSmartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		DD1B61732CA7FEF300BB8422 /* Exceptions for "ShowSmart" folder in "ShowSmart" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = DDE5D20F2CA5C0EC00F16BC9 /* ShowSmart */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		DDE5D2122CA5C0EC00F16BC9 /* ShowSmart */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				DD1B61732CA7FEF300BB8422 /* Exceptions for "ShowSmart" folder in "ShowSmart" target */,
+			);
+			path = ShowSmart;
+			sourceTree = "<group>";
+		};
+		DDE5D2232CA5C0EF00F16BC9 /* ShowSmartTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ShowSmartTests;
+			sourceTree = "<group>";
+		};
+		DDE5D22D2CA5C0EF00F16BC9 /* ShowSmartUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ShowSmartUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDE5D20D2CA5C0EC00F16BC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDE5D21D2CA5C0EF00F16BC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDE5D2272CA5C0EF00F16BC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDE5D2072CA5C0EC00F16BC9 = {
+			isa = PBXGroup;
+			children = (
+				DDE5D2122CA5C0EC00F16BC9 /* ShowSmart */,
+				DDE5D2232CA5C0EF00F16BC9 /* ShowSmartTests */,
+				DDE5D22D2CA5C0EF00F16BC9 /* ShowSmartUITests */,
+				DDE5D2112CA5C0EC00F16BC9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDE5D2112CA5C0EC00F16BC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDE5D2102CA5C0EC00F16BC9 /* ShowSmart.app */,
+				DDE5D2202CA5C0EF00F16BC9 /* ShowSmartTests.xctest */,
+				DDE5D22A2CA5C0EF00F16BC9 /* ShowSmartUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDE5D20F2CA5C0EC00F16BC9 /* ShowSmart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDE5D2342CA5C0EF00F16BC9 /* Build configuration list for PBXNativeTarget "ShowSmart" */;
+			buildPhases = (
+				DDE5D20C2CA5C0EC00F16BC9 /* Sources */,
+				DDE5D20D2CA5C0EC00F16BC9 /* Frameworks */,
+				DDE5D20E2CA5C0EC00F16BC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				DDE5D2122CA5C0EC00F16BC9 /* ShowSmart */,
+			);
+			name = ShowSmart;
+			packageProductDependencies = (
+			);
+			productName = ShowSmart;
+			productReference = DDE5D2102CA5C0EC00F16BC9 /* ShowSmart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDE5D21F2CA5C0EF00F16BC9 /* ShowSmartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDE5D2372CA5C0EF00F16BC9 /* Build configuration list for PBXNativeTarget "ShowSmartTests" */;
+			buildPhases = (
+				DDE5D21C2CA5C0EF00F16BC9 /* Sources */,
+				DDE5D21D2CA5C0EF00F16BC9 /* Frameworks */,
+				DDE5D21E2CA5C0EF00F16BC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDE5D2222CA5C0EF00F16BC9 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DDE5D2232CA5C0EF00F16BC9 /* ShowSmartTests */,
+			);
+			name = ShowSmartTests;
+			packageProductDependencies = (
+			);
+			productName = ShowSmartTests;
+			productReference = DDE5D2202CA5C0EF00F16BC9 /* ShowSmartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DDE5D2292CA5C0EF00F16BC9 /* ShowSmartUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDE5D23A2CA5C0EF00F16BC9 /* Build configuration list for PBXNativeTarget "ShowSmartUITests" */;
+			buildPhases = (
+				DDE5D2262CA5C0EF00F16BC9 /* Sources */,
+				DDE5D2272CA5C0EF00F16BC9 /* Frameworks */,
+				DDE5D2282CA5C0EF00F16BC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDE5D22C2CA5C0EF00F16BC9 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DDE5D22D2CA5C0EF00F16BC9 /* ShowSmartUITests */,
+			);
+			name = ShowSmartUITests;
+			packageProductDependencies = (
+			);
+			productName = ShowSmartUITests;
+			productReference = DDE5D22A2CA5C0EF00F16BC9 /* ShowSmartUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDE5D2082CA5C0EC00F16BC9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					DDE5D20F2CA5C0EC00F16BC9 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					DDE5D21F2CA5C0EF00F16BC9 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = DDE5D20F2CA5C0EC00F16BC9;
+					};
+					DDE5D2292CA5C0EF00F16BC9 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = DDE5D20F2CA5C0EC00F16BC9;
+					};
+				};
+			};
+			buildConfigurationList = DDE5D20B2CA5C0EC00F16BC9 /* Build configuration list for PBXProject "ShowSmart" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDE5D2072CA5C0EC00F16BC9;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = DDE5D2112CA5C0EC00F16BC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDE5D20F2CA5C0EC00F16BC9 /* ShowSmart */,
+				DDE5D21F2CA5C0EF00F16BC9 /* ShowSmartTests */,
+				DDE5D2292CA5C0EF00F16BC9 /* ShowSmartUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDE5D20E2CA5C0EC00F16BC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDE5D21E2CA5C0EF00F16BC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDE5D2282CA5C0EF00F16BC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDE5D20C2CA5C0EC00F16BC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDE5D21C2CA5C0EF00F16BC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDE5D2262CA5C0EF00F16BC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDE5D2222CA5C0EF00F16BC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDE5D20F2CA5C0EC00F16BC9 /* ShowSmart */;
+			targetProxy = DDE5D2212CA5C0EF00F16BC9 /* PBXContainerItemProxy */;
+		};
+		DDE5D22C2CA5C0EF00F16BC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDE5D20F2CA5C0EC00F16BC9 /* ShowSmart */;
+			targetProxy = DDE5D22B2CA5C0EF00F16BC9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DDE5D2322CA5C0EF00F16BC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DDE5D2332CA5C0EF00F16BC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDE5D2352CA5C0EF00F16BC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ShowSmart/Preview Content\"";
+				DEVELOPMENT_TEAM = D86DNUKN6R;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ShowSmart/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSContactsUsageDescription = "This app requires access to your contacts.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adam.showsmart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDE5D2362CA5C0EF00F16BC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ShowSmart/Preview Content\"";
+				DEVELOPMENT_TEAM = D86DNUKN6R;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ShowSmart/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSContactsUsageDescription = "This app requires access to your contacts.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adam.showsmart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DDE5D2382CA5C0EF00F16BC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D86DNUKN6R;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.ShowSmartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShowSmart.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ShowSmart";
+			};
+			name = Debug;
+		};
+		DDE5D2392CA5C0EF00F16BC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D86DNUKN6R;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.ShowSmartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShowSmart.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ShowSmart";
+			};
+			name = Release;
+		};
+		DDE5D23B2CA5C0EF00F16BC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D86DNUKN6R;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.ShowSmartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ShowSmart;
+			};
+			name = Debug;
+		};
+		DDE5D23C2CA5C0EF00F16BC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D86DNUKN6R;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.ShowSmartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ShowSmart;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDE5D20B2CA5C0EC00F16BC9 /* Build configuration list for PBXProject "ShowSmart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDE5D2322CA5C0EF00F16BC9 /* Debug */,
+				DDE5D2332CA5C0EF00F16BC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDE5D2342CA5C0EF00F16BC9 /* Build configuration list for PBXNativeTarget "ShowSmart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDE5D2352CA5C0EF00F16BC9 /* Debug */,
+				DDE5D2362CA5C0EF00F16BC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDE5D2372CA5C0EF00F16BC9 /* Build configuration list for PBXNativeTarget "ShowSmartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDE5D2382CA5C0EF00F16BC9 /* Debug */,
+				DDE5D2392CA5C0EF00F16BC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDE5D23A2CA5C0EF00F16BC9 /* Build configuration list for PBXNativeTarget "ShowSmartUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDE5D23B2CA5C0EF00F16BC9 /* Debug */,
+				DDE5D23C2CA5C0EF00F16BC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDE5D2082CA5C0EC00F16BC9 /* Project object */;
+}

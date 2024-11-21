@@ -1,0 +1,22 @@
+{
+    "id": "1",
+    "type": "Bathroom",
+    "options": {
+        "1 Level": ["Lower", "Main", "Upper"],
+        "2 Full/Half": ["Full", "Half"],
+        "3 Flooring Type": ["Carpet","Linoleum", "Vinyl Tile", "Laminate", "Tile", "Hardwood"],
+        "4 Flooring Condition": ["Poor", "Average", "Good", "Excellent"],
+        "5 Lighting Type": ["None","Pot Lights", "Ceiling Fixtures", "Lamps Only", "Other"],
+        "6 Tub or Shower?": ["No", "Tub Only", "Shower Only", "Tub & Shower"],
+        "7 Fan or Ventilation?": ["None", "Fan", "HRV"]
+    },
+    "selected": {
+        "1 Level": "",
+        "2 Full/Half": "",
+        "3 Flooring Type": "",
+        "4 Flooring Condition": "",
+        "5 Lighting Type": "",
+        "6 Tub or Shower?": "",
+        "7 Fan or Ventilation?": ""
+    }
+}
